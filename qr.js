@@ -16,17 +16,23 @@ const fs = require("fs-extra");
 const { Boom } = require("@hapi/boom");
 const PORT = process.env.PORT ||  5000
 const MESSAGE = process.env.MESSAGE ||  `
-┌───⭓『
-❒ *WASI-MD*
-❒ _NOW DEPLOY IT_
-└────────────⭓
-┌───⭓
-❒  • Chat with owner •
-❒ *GitHub:* __https://github.com/WASI-MD_
-❒ *Author:* _wa.me/923192173398_
-❒ *YT:* _https://youtube.com/@wasitech10_
-└────────────⭓
-`
+┏━━━━━━━━━━━━━━
+┃Sonic-MD SESSION IS 
+┃SUCCESSFULLY
+┃CONNECTED ✅🔥
+┗━━━━━━━━━━━━━━━
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+❶ || Creator = AF VENOM_👨🏻‍💻
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+❷ || WhattsApp Channel = https://whatsapp.com/channel/0029Vb30f17CsU9Jaewwdi3X
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+❸ || Owner = https://wa.me/+94715603835
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+❺ || Youtube Channel = https://www.youtube.com/@ThenulaThisan
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+❻ || Tik Tok = https://www.tiktok.com/@thenuxkepv0?_t=ZS-8vM2bLXkvWk&_r=1
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+ᴄʀᴇᴀᴛᴇᴅ ʙʏ AF VENOM`
 
 
 
@@ -134,7 +140,7 @@ SESSION-ID ==> ${Scan_Id}
     await fs.emptyDirSync(__dirname+'/auth_info_baileys'); 
 
 
-    //// MADE BY ITXWASI
+    //// MADE BY af venom
 
 });
 
