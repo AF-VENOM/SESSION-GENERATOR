@@ -59,23 +59,23 @@ router.get('/', async (req, res) => {
 				   let session = await Qr_Code_By_Wasi_Tech.sendMessage(Qr_Code_By_Wasi_Tech.user.id, { text: '' + b64data });
 	
 				   let WASI_MD_TEXT = `
-*_Session Connected By Wasi Tech_*
-*_Made With 🤍_*
-______________________________________
-╔════◇
-║ *『AMAZING YOU'VE CHOSEN WASI MD』*
-║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
-╚════════════════════════╝
-╔═════◇
-║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ *Ytube:* _youtube.com/@wasitech1
-║❒ *Owner:* _https://wa.me/message/THZ3I25BYZM2E1_
-║❒ *Repo:* _https://github.com/wasixd/WASI-MD_
-║❒ *WaGroup:* _https://chat.whatsapp.com/FF6YuOZTAVB6Lu65cnY5BN_
-║❒ *WaChannel:* _https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j_
-║❒ *Plugins:* _https://github.com/Itxxwasi 
-╚════════════════════════╝
-_____________________________________
+┏━━━━━━━━━━━━━━
+┃Sonic-MD SESSION IS 
+┃SUCCESSFULLY
+┃CONNECTED ✅🔥
+┗━━━━━━━━━━━━━━━
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+❶ || Creator = AF VENOM_👨🏻‍💻
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+❷ || WhattsApp Channel = https://whatsapp.com/channel/0029Vb30f17CsU9Jaewwdi3X
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+❸ || Owner = https://wa.me/+94715603835
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+❺ || Youtube Channel = https://www.youtube.com/@ThenulaThisan
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+❻ || Tik Tok = https://www.tiktok.com/@thenuxkepv0?_t=ZS-8vM2bLXkvWk&_r=1
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+ᴄʀᴇᴀᴛᴇᴅ ʙʏ AF VENOM`
 	
 _Don't Forget To Give Star To My Repo_`
 	 await Qr_Code_By_Wasi_Tech.sendMessage(Qr_Code_By_Wasi_Tech.user.id,{text:WASI_MD_TEXT},{quoted:session})
